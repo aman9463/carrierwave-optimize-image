@@ -1,6 +1,7 @@
 # carrierwave-optimize-image
 
-This gem allows you to compress lossless images with the help of ffmpeg library on carrierwave gem
+This gem allows you to compress lossless images with the help of ffmpeg library on carrierwave gem.
+This library is inspired from carrierwave-imageoptimizer.
 
 
 ## Installation
@@ -44,6 +45,20 @@ end
 Pass an optional `level` parameter to specific lossy image quality level (0-100), default is lossless level is 30.
 The lessel the value, the better the qaulity.
  
+## system requiremets
+
+To use this gem ffmpeg library should be install on you system or ypu can follow the below steps to install it.
+
+Ubuntu
+```
+sudo apt-get install ffmpeg
+```
+Mac Os
+
+```
+brew install ffmpeg 
+```
+
 
 ## Contributing
 
