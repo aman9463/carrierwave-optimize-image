@@ -53,7 +53,7 @@ Ubuntu
 ```
 sudo apt-get install ffmpeg
 ```
-Mac Os
+Mac OS
 
 ```
 brew install ffmpeg 
